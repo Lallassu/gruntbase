@@ -34,7 +34,7 @@ Further information regarding Grunt, Bower and npm here:
 
 ## Screenshot
 
-![](https://raw.github.com/lallassu/gruntbase/master/example.gif =400px)
+<img src="https://raw.github.com/lallassu/gruntbase/master/example.gif" width="800px" height="400px">
 
 ## Usage
 
