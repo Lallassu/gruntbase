@@ -26,7 +26,7 @@ Add server packages for development:
 npm install <package> --save-dev
 ~~~~
 
-Further information regarding Grunt, Bower and npn here:
+Further information regarding Grunt, Bower and npm here:
 
 * [Grunt](http://gruntjs.com/)
 * [Bower](https://bower.io/)
@@ -34,7 +34,7 @@ Further information regarding Grunt, Bower and npn here:
 
 ## Screenshot
 
-![alt tag](https://raw.github.com/lallassu/gruntbase/master/example.gif)
+![](https://raw.github.com/lallassu/gruntbase/master/example.gif =400px)
 
 ## Usage
 
@@ -70,13 +70,16 @@ node server/server.js
 ## Environment
 
 Directory structure:
+~~~~
     server - Server files such as the main file ''server.js''
     client - Client files for the client-side.
     tmp    - Temporary directory for js files during development
     dist   - Distribution directory when running ''grunt dist''
     html   - html file template
+~~~~
 
 Files:
+~~~~
     html/index.html  - Index template 
     index.html       - Generated index file  (do not edit)
     tmp/client.js    - Generated client code (do not edit)
@@ -85,6 +88,7 @@ Files:
     Gruntfile.js     - The grunt file 
     bower.js         - The bower file 
     package.json     - npm file
+~~~~
 
 
 ## License
