@@ -1,0 +1,20 @@
+{
+  "name": "GruntBase_bower",
+  "description": "Client/Server app",
+  "main": "server.js",
+  "authors": [
+    "Magnus Persson"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

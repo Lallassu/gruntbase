@@ -1,0 +1,35 @@
+{
+  "name": "GruntBase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grunt for server/client",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magnus Persson",
+  "license": "MIT",
+  "dependencies": {
+    "engine.io": "^1.7.2",
+    "eureca": "^0.1.423",
+    "express": "^4.14.0",
+    "timesync": "^0.2.1"
+  },
+  "devDependencies": {
+    "open": "0.0.5",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "bower": "^1.7.9",
+    "browserify": "^13.1.1",
+    "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-nodemon": "^0.4.2",
+    "grunt-replace": "^1.0.1",
+    "grunt-wiredep": "^3.0.1"
+  }
+}
