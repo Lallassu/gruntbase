@@ -3,6 +3,8 @@
 This is a template for NodeJS client/server using a fully automated development environment
 with grunt, bower, browserify, uglify etc.
 
+I use this as a base for my ThreeJS/Phaser game projects.
+
 ## Installation
 
 ~~~~
